@@ -1,4 +1,144 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
+    color: darkslategray;
     }
+    h1{
+        font-size: 40px;
+    }
+    .blue-color{
+        color:#814DE7;
+    }
+
+    section{
+        display: flex;
+        height: 500px;
+        padding-bottom: 150px;
+    }
+    .size-half{
+        width: 50%;
+        margin: 2% 5%;     
+    }
+    .size-half img{
+        width: 90%;
+    }
+    .size-half a{
+        text-decoration: none;
+        background-image: linear-gradient(#814DE7,black);
+        padding: 8px 10px;
+        border-radius: 15px;
+        color: white;
+    }
+
+    .section-2{
+        background-image: url(image/Frame-57.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    .pizza-menu div{
+        width: 33%;
+        margin: 20px;
+        padding: 10px;
+    }
+
+    .section-3{
+        margin: 2% 5%; 
+    }
+    .section-3 h1, .section-3 p{
+        text-align: center;
+    }
+    .menu-list img{
+        border-radius: 20px;
+        width: 350px;
+        height: 250px;
+    }
+
+    .menu-list{
+        box-shadow: 10px 10px 40px gray;
+        border-radius: 20px;
+        height: 450px;
+    }
+    .menu-list p{
+        text-align: left;
+    }
+     
+    #subscriber{
+        display: flex; 
+        box-shadow: 10px 10px 40px gray; 
+        margin: -8% 2% 0px 2%;
+        border-radius: 10px;
+
+    }
+    #subscriber div{
+        width: 50%;
+        margin: 2% 8%; 
+        text-align: center;
+
+    }
+    .section-4{
+        margin: 2% 5%; 
+        margin-top: 100px;
+    }
+    .section-4 h1{
+        background-image:linear-gradient(#9b77e4,black);
+        color: white;
+        padding: 20px;
+        margin-top: 50px;
+        border-radius: 10px;
+    }
+     .form label{
+        display: block;
+        margin-top: 10px;
+        margin-left: 100px;
+    }
+
+    .form input{
+        display: block;
+        margin-left: 100px;
+        height: 30px;
+        width: 200px;
+        border-radius: 5px;
+    }
+    .form{
+           box-shadow: 10px 10px 40px gray;
+           background-color: #9b77e4;
+           width: 400px;
+           margin-left: 100px;
+           padding-top: 40px;
+           border-radius: 10px;
+    }
+.section-5{
+    margin: 2% 5%; 
+}
+
+.location{
+    padding: 20px;
+    box-shadow: 10px 10px 30px gray;
+    margin-right: 40px;
+    border-radius: 20px;
+}
+
+.location img{
+    border-radius: 20px;
+    margin-left: 40px;
+}
+
+.review{
+    padding: 40px;
+    background-image: linear-gradient(gray,#814DE7);
+    color: white;
+    border-radius: 20px;
+}
+
+footer h3{
+text-align: center;
+padding-top: 20px;
+}
+footer p{
+text-align: center;
+}
+footer{
+    background-color: rgb(43, 53, 45);
+    color: white;
+    height: 100px;
+}
