@@ -35,29 +35,31 @@ body{
         background-size: 100%;
         background-repeat: no-repeat;
     }
-    .pizza-menu div{
-        width: 33%;
-        margin: 20px;
-        padding: 10px;
-    }
 
-    .section-3{
-        margin: 2% 5%; 
-    }
     .section-3 h1, .section-3 p{
         text-align: center;
     }
+    
+    .section-3{
+        margin: 2% 9%; 
+    }
+
+    .pizza-menu div{
+        width: 294px;
+        height: 420px;
+        margin: 20px 30px;
+        padding: 8px;
+        box-shadow: 10px 10px 40px gray;
+        border-radius: 20px;
+       
+    }
+
     .menu-list img{
         border-radius: 20px;
-        width: 350px;
+        width: 294px;
         height: 250px;
     }
 
-    .menu-list{
-        box-shadow: 10px 10px 40px gray;
-        border-radius: 20px;
-        height: 450px;
-    }
     .menu-list p{
         text-align: left;
     }
@@ -65,13 +67,13 @@ body{
     #subscriber{
         display: flex; 
         box-shadow: 10px 10px 40px gray; 
-        margin: -8% 2% 0px 2%;
+        margin:  -5% 2.5% 10% 2.6%;
+        height: 120px;
         border-radius: 10px;
 
     }
     #subscriber div{
-        width: 50%;
-        margin: 2% 8%; 
+        width:33.33%; 
         text-align: center;
 
     }
@@ -106,6 +108,10 @@ body{
            margin-left: 100px;
            padding-top: 40px;
            border-radius: 10px;
+           border: 2px solid black;
+    }
+    #message-tag{
+        height: 100px;
     }
 .section-5{
     margin: 2% 5%; 
@@ -121,6 +127,7 @@ body{
 .location img{
     border-radius: 20px;
     margin-left: 40px;
+    border:2px solid #814DE7;
 }
 
 .review{
@@ -128,6 +135,7 @@ body{
     background-image: linear-gradient(gray,#814DE7);
     color: white;
     border-radius: 20px;
+    border: 2px solid darkblue;
 }
 
 footer h3{
